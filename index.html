@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buenas Prácticas DevOps</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      color: #fff;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 10px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #00ffcc;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #f0f0f0;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #2a2a40;
+      padding: 20px;
+      border-radius: 12px;
+      transition: transform 0.3s ease;
+      border-left: 6px solid #00ffcc;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card h2 {
+      color: #00ffcc;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #aaa;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .card {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Buenas Prácticas DevOps</h1>
+    <p>Integración continua, entrega rápida, y colaboración sin fricción</p>
+  </header>
+
+  <section>
+    <div class="card">
+      <h2>1. Integración Continua</h2>
+      <p>Automatiza pruebas y compilación con cada cambio en el código para detectar errores de inmediato.</p>
+    </div>
+    <div class="card">
+      <h2>2. Entrega Continua</h2>
+      <p>Despliega versiones con frecuencia y facilidad para validar funcionalidad en ambientes reales.</p>
+    </div>
+    <div class="card">
+      <h2>3. Infraestructura como Código</h2>
+      <p>Gestiona tu infraestructura con archivos versionados, reproducibles y auditables.</p>
+    </div>
+    <div class="card">
+      <h2>4. Monitoreo y Logging</h2>
+      <p>Implementa observabilidad para detectar cuellos de botella y prevenir incidentes críticos.</p>
+    </div>
+    <div class="card">
+      <h2>5. Colaboración Multidisciplinaria</h2>
+      <p>Fomenta el trabajo conjunto entre desarrollo, operaciones y QA para mejorar la entrega de valor.</p>
+    </div>
+    <div class="card">
+      <h2>6. Automatización de Procesos</h2>
+      <p>Reduce tareas repetitivas para mejorar la eficiencia y minimizar errores humanos.</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 - DevOps para Todos 🚀
+  </footer>
+
+</body>
+</html>
